@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #046634;
+    border-bottom: 1px solid #fff;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.menu {
+    margin-top: 70px;
+}
+
+.slide {
+    padding-bottom: 15px
+}
+
+.danh-sach {
+    padding-bottom: 3%;
+}
+
+.danh-sach .title {
+    background: #046634;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.danh-sach ul {
+    margin: -15px;
+}
+
+.danh-sach li {
+    width: 33.33%;
+    display: inline-block;
+    padding: 15px;
+    float: left;
+}
+
+.san-pham .title {
+    text-align: center;
+    position: relative;
+}
+
+.san-pham .title h4 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.list-product {
+    border: 1px solid #000;
+}
+
+.list-product .info {
+    padding: 10px;
+    color: #046634;
+    background-color: #ebebeb;
+}
+
+.list-product .info .thumb {
+    padding: 15px;
+}
+
+.info .icon {
+    margin: 10px 0;
+}
+
+.info b {
+    padding-top: 10px;
+    display: block;
+}
+
+.list-product ul {
+    margin: -15px;
+}
+
+.list-product li {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+.footer {
+    padding-top: 15px;
+    height: 300px;
+}
+
+.cac-buoc .step {
+    width: 40px;
+    height: 40px;
+    background: #046634;
+    text-align: center;
+    color: #fff;
+}
